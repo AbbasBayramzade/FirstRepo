@@ -1,0 +1,591 @@
+.margin{
+	width: 1149px;
+	height: auto;
+	margin: 0 auto;
+	border:1px solid opacity;
+	display: block;
+}
+
+html,body {
+	font-family: Ebrima;
+}
+
+/*HEADER-sectionun CSS kodlari*/
+
+#header{
+	width: 100%;
+	height: 60px;
+	background-color: #32609E;
+}
+
+#header .margin{
+	height: 58px;
+}
+
+#header .margin #menu{
+   display: block;
+}
+
+#header .margin #menu #contact{
+	color: yellow;
+}
+
+#header .margin #menu a{
+	float: left;
+	text-decoration: none;
+	padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+	font-size: 14px;
+    letter-spacing: .1em;
+    padding-top: 22px;
+    text-transform: uppercase;
+    color: #93ABCC;
+}
+
+#header .margin input{
+	width: 250px;
+	height: 56.5px;
+	float: right;
+	border:none;
+	background-color:  #386CB1;
+    color: #F5F7FB;
+    font-size: 17px;
+    cursor: text;
+    padding: 0 0 0 20px;
+}
+
+::placeholder{
+	color: #B5C8E2;
+	font-size: 17px;
+}
+
+input.middle:focus {
+    outline-width: 0;
+}
+
+#header .margin .fa{
+	float: right;
+	font-size: 16px;
+	margin:0 -250px 0 0;
+	text-decoration: none;
+	color: white;
+	padding-top: 20px;
+}
+
+/*PROBOOTSTRAP-sectionun CSS kodlari*/
+
+#probootstrap .margin{
+	height: 180px;
+	border: 1px solid opacity; 
+	display: block;	
+}
+
+#probootstrap .margin img{
+	padding-top: 50px;
+	cursor: pointer;
+}
+
+#probootstrap .margin #appointment{
+	float: right;
+	font-size: 30px;
+	color: #4FB5E6;
+	font-family: "Open Sans", sans-serif;	
+	width: 210px;
+	height: 30px;
+	border: 1px solid opacity;
+	margin:-50px 0 0 895px;
+}
+
+#probootstrap .margin #phone{
+	width: 40px;
+	height: 28px;
+	text-align: center;
+	padding-top: 12px;
+	border: 2px solid #4FB5E6;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 45px 225px 0 0;
+	float: right;
+	font-size: 19px;
+	color: #4FB5E6;
+	transform: rotate(260deg);
+}
+
+#probootstrap .margin .link{
+	color: #4FB5E6;
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+    margin:0 100px 0 0;
+}
+
+#probootstrap .margin #right{
+	color: #4FB5E6;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	float: right;
+	margin:-3px -110px 0 0;
+}
+
+/*MEDICALWEBSITE-sectionun CSS kodlari*/
+
+#medicalwebsite .margin{
+	height: 230px;
+	border:1px solid opacity;
+	display: inline-block;
+	margin-left: 99px;
+}
+
+#medicalwebsite .margin h1{
+	color: #32609E;
+	font-size:3.5rem;
+	float: left;
+	font-weight: 300;
+	line-height: 1.1;
+}
+
+#medicalwebsite .margin p{
+	    font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        color: #5CBAE7;
+        margin:90px 0 0 0;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.2;
+}
+
+#medicalwebsite .margin a{
+	text-decoration: none;
+    color: #32609e;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+    margin:-30px 0 0 260px;
+    float: left;
+}
+
+/*MOREDEPARTMENTS-sectionun CSS kodlari*/
+
+#moredepartments{
+	width: 99.888797%;
+	height: 630px;
+	border: 1px solid white;
+	display: block;
+}
+
+#moredepartments #wholeleft{
+	width: 30%;
+	height: 630px;
+	border: 1px solid opacity;
+	background-color: #32609E;
+	float: right;
+}
+
+#moredepartments #wholeleft #left1{
+	float: right;
+	width: 286px;
+	height: 483px;
+	border:1px solid opacity;
+	padding-top: 145px;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu{
+	width: 284px;
+	height: 300px;
+	border:1px solid opacity;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu h2{
+	font-size: 1.4rem;
+	color: #F5F5F4;
+	font-weight: 500;
+	letter-spacing:3px;
+	line-height: 0.75;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu #h2{
+	 width: 63px;
+	 height: 2px;
+	 background-color: #5B80B2;
+	 margin: 20px 0 35px 0;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu li a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 17px;
+    color: #4DB1E3;
+    font-family: "Open Sans", sans-serif;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu li a:hover{
+	color: white;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu p a{
+	text-decoration: none;
+	position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing:.2em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 4.2;
+    color: white;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu i a{
+	text-decoration: none;
+	float: right;
+	color: white;
+	font-size: 10px;
+	margin: -35px 65px 0 0;
+}
+
+#moredepartments #wholeleft #left1 #leftmenu i a:hover{
+	margin-right: 45px;
+	transition: 2s all ease;
+}
+
+#moredepartments #eurology{
+     width: 834px;
+     height: 574px;
+     border: 1px solid white;
+     margin: 0 0 0 70px;
+}
+
+#moredepartments #eurology h2{
+	font-size: 30px;
+	line-height: 1.45;
+    font-weight: normal;
+    color: #32609e;
+    margin-bottom: 1.5rem;
+}
+
+#moredepartments #eurology #formspace{
+    width: 784px;
+    height: 499px;
+    border:1px solid opacity;
+}
+
+#moredepartments #eurology #formspace #formtextspace{
+	width: 782px;
+	height: 65px;
+	border: 1px solid opacity;
+	margin-bottom: 1rem;
+	font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+#moredepartments #eurology #formspace #differentspace{
+	width: 782px;
+	height: 230px;
+	border:1px solid opacity;
+}
+
+#moredepartments #eurology #formspace #formtextspace input{
+	width: 770px;
+	border: 1px solid #ccc;
+    color: #859196;
+    border-radius: 4px;
+    height: 55px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+}
+
+#moredepartments #eurology #formspace #differentspace textarea{
+	width: 766px;
+	height: 215px;
+	color: #859196;
+	font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#moredepartments #eurology #formspace #submitspace input{
+	border-radius: 4px;
+    padding: 20px 30px;
+    font-size: 12px;
+    letter-spacing: .2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0 0 2px;
+    background-color: #32609E;
+    border: none;
+    color: white;
+}
+
+#moredepartments #eurology #formspace #submitspace input:hover{
+	background-color: #333968;
+}
+
+/*SPECIALISTS-sectionun CSS kodlari*/
+
+#specialists{
+	width: 99.888797%;
+	height: 480px;
+	background:url("../img/bg_1.jpg") 40% 50%;
+	background-size: cover;
+	border:1px solid opacity;
+}
+
+#specialists #therapy{
+	width: 99.988797%;
+	height: 365px;
+	border:1px solid opacity;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 115px;
+}
+
+#specialists #therapy h2{
+    font-size: 3.5rem;
+    font-weight: 350;
+    line-height: 1.1;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+}
+
+#specialists #therapy p{
+	font-size: 1.25rem;
+    font-weight: 350;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    line-height: 3;
+    color: #E5E3E1
+}
+
+#specialists #therapy #link{
+	width: 290px;
+	height: 19px;
+	border: 1px solid #4FB5E6;
+	border-radius: 4px;
+    padding: 19px 30px;
+    cursor: pointer;
+    background-color: #4FB5E6;
+    text-align: center;
+    margin:30px auto 0;
+ } 
+
+ #specialists #therapy #link:hover{
+ 	background-color: #22a2e0;
+ 	border: none;
+ }  
+
+#specialists #therapy #link a{
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F6FBFE;
+}
+
+#specialists #therapy #link span i{
+    color: #fff;
+    font-size: 0.7rem;
+    margin: 0 0 0 10px;
+}
+
+/*NUMBERS-sectionun kodlari       */
+
+#numbers{
+	width: 99.888797%;
+	height: 240px;
+	border: 1px solid opacity;
+	text-align: center;
+}
+
+#numbers .margin{
+	height: 162px;
+	margin-top: 130px;
+}
+
+#numbers .margin #numberspacefour{
+	width: 260px;
+	height: 160px;
+	border: 1px solid opacity;
+	float: left;
+	margin: 0 12px 0 ;
+}
+
+#numbers .margin #numberspacefour #number{
+	display: block;
+    font-size: 72px;
+    font-weight: 300;
+    color: #32609e;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#numbers .margin #numberspacefour #numbersname{
+	font-size: 16px;
+    letter-spacing: .1em;
+    color: #b3b3b3;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1;
+    text-align: center;  
+    font-weight: 400;
+}
+
+/*INFO-sectionun kodlari*/
+
+#info{
+	width: 99.888797%;
+	height: 480px;
+	border: 1px solid opacity;
+	background-color: #32609E;
+}
+
+#info  #opacity{
+	width: 99.8%;
+	height: 397px;
+	border: 1px solid opacity;
+}
+
+#info #infospace{
+	width: 1142px;
+	height: 395px;
+	border: 1px solid #32609E;
+	margin: 0 auto ;
+}
+
+#info #infospace #squarewhole{
+    width: 1140px;
+    height: 278px;
+    border: 1px solid #opacity;
+    margin-top: 115px;
+}
+
+#info #infospace #square-4{
+	width: 282.99999px;
+	height: 275px;
+	border: 1px solid opacity;
+	float: left;
+}
+
+#info #infospace #square-4 h2{
+	    font-size: 13px;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: .2em;
+        line-height: 1.45;
+            margin-bottom: .5rem;
+}
+
+#info #infospace #square-4 ul{
+	width: 255px;
+	height: 230px;
+	border: 1px solid opacity;
+}
+
+#info #infospace #square-4 #differentone{
+	    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid #3C68A3;
+}
+
+#info #infospace #square-4 #differentone a{
+	color: #4fb5e6;
+	text-decoration: none;
+	    font-size: 16px;
+	        font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+}
+
+#info #infospace #square-4 #differentone a:hover{
+	color: white;
+}
+
+#info #infospace #square-4 #differentone p{
+	color: #3B7FB9;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+}
+
+#info #infospace #square-4 #second{
+	width: 255px;
+	height: 230px;
+	border: 1px solid opacity;
+}
+
+#info #infospace #square-4 #second p{
+	color: #4fb5e6;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+}
+
+#info #infospace #square-4 #second h2{
+	margin-top: 45px;
+}
+
+#info #infospace #square-4 #differenttwo a{
+	    margin-bottom: 10px;
+	    font-size: 16px;
+	    color: #4fb5e6;
+	    font-family: "Open Sans", sans-serif;
+        line-height: 2;
+        font-weight: 400;
+        text-decoration: none;
+}
+
+#info #infospace #square-4 #differenttwo a:hover{
+	color: white;
+}
+
+#info #infospace #square-4 #differentthree a{
+       line-height: 1;
+       font-size: 30px;
+       color: #4fb5e6;
+       float: left;
+       text-decoration: none;
+       margin: 10px 15px 0 0;
+}
+
+#info #infospace #square-4 #differentthree a:hover{
+	color: white;
+}
+
+/*FOOTER-sectionun kodlari*/
+
+#footer{
+	width: 99.888797%;
+	height: 210px;
+	border:1px solid opacity;
+	background-color: #32609E;
+}
+
+#footer #footerlast{
+	width: 1140px;
+	height: 60px;
+	border: 1px solid opacity;
+	margin: 0 auto;
+}
+
+#footer #footerlast p{
+	font-size: 13px;
+	font-weight: 400;
+	color: #459ACF;
+	line-height: 1.8;
+}
+
+#footer #footerlast p a{
+	text-decoration: none;
+	color: white;
+}
